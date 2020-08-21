@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+.container{
+    width: 100%;
+    min-width: 500px;
+}
+div.box1,div.box2,div.box4,div.box6{
+    width: 100%;
+    background-color: #e3e3e3;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+div.box2{
+    
+    height: 300px;
+    background-color: white;
+}
+P.brandName{
+    transform: translate(50px,-60px);
+    color: burlywood;
+}
+.logo{
+    padding: 20px;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 35px;
+    background-color: black;
+}
+.logo1,.logo2,.logo3{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+.logo2{
+    transform: translateY(-10px);
+}
+.logo3{
+    transform: translate(10px,-30px);
+} 
+h1.box1{
+    width: fit-content;
+    margin:auto;
+    padding-top: 10px;
+}
+p.box1{
+    width:fit-content;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+b{
+    font-size: 1.5em;
+}
+a{
+    color: grey;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    color:burlywood;
+    text-decoration: underline;
+}
+li.nav{
+    margin-right: 20px;
+    list-style: none;
+}
+ul.navbar{
+    transform: translateY(-20px);
+    display: flex;
+    justify-content: flex-end;
+}
+h1.box2{
+    width: fit-content;
+    margin: auto;
+    padding-top: 20px;
+}
+.smallbox{
+    margin-left: 30px;
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: burlywood;
+    animation: motion 1.8s ease infinite;
+}
+@keyframes motion{
+    0%{
+        background-color: burlywood;
+        transform: translate(0);
+    }
+    10%{
+        background-color: rgb(212, 140, 44);
+        transform: translate(200px,100px);
+    }
+    20%{
+        background-color: rgb(182, 117, 32);
+        transform: translateX(400px);
+    }
+    30%{
+        background-color: rgb(170, 99, 6);
+        transform: translate(600px,100px);
+    }
+    40%{
+        background-color: rgb(63, 36, 0);
+        transform: translateX(800px);
+    }
+    50%{
+        background-color: rgb(22, 13, 0);
+        transform: translate(800px,100px);
+    }
+    60%{
+        background-color: rgb(85, 49, 2);
+        transform: translateX(600px);
+    }
+    70%{
+        background-color: rgb(126, 75, 9);
+        transform: translate(400px, 100px);
+    }
+    80%{
+        background-color: rgb(173, 103, 11);
+        transform: translateX(200px);
+    }
+    90%{
+        background-color: rgb(168, 118, 53);
+        transform: translateY(100px);
+    }
+    100%{
+        background-color: burlywood;
+        transform: translate(0);
+    }
+}
+.box3 p{
+    padding-left: 30px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+h2.box4,h2.box5{
+    margin: auto;
+    width: fit-content;
+    color: black;
+    margin-top: 30px;
+}
+.insideboxes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.insidebox1,.insidebox2,.insidebox3,.insidebox4{
+    width: 40%;
+    padding: 30px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+div.facilities{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+h4.facilities{
+    font-size: 1.5em;
+}
+ul.facilities{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+li.facilities{
+    width:40%;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+h3.box4{
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2.box5{
+    font-size: 3rem;
+}
+div.box5list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 60px;
+    font-size: 1.8rem;
+    padding-bottom: 50px;
+}
+.box5 p{
+    padding-left: 30px;
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+div.box6{
+    background-color: black;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+div.address{
+    width: 30%;
+    color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+div.follow{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+div.icons{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.box6 p{
+    color: burlywood;
+    width: fit-content;
+    margin-left: 0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+i{
+    padding-top: 20px;
+    margin-right: 20px;
+}
+@media screen and (max-width:768px){
+    .smallbox{
+        margin-left: 30px;
+        width:50px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: burlywood;
+        animation: motion 1.8s ease infinite;
+    }
+
+
+    @keyframes motion{
+        0%{
+          background-color: burlywood;
+          transform: translate(0);
+        }
+        10%{
+          background-color: rgb(212, 140, 44);
+          transform: translate(100px,100px);
+        }
+        20%{
+          background-color: rgb(182, 117, 32);
+          transform: translateX(200px);
+        }
+        30%{
+          background-color: rgb(170, 99, 6);
+          transform: translate(300px,100px);
+        }
+        40%{
+          background-color: rgb(63, 36, 0);
+          transform: translateX(400px);
+        }
+        50%{
+          background-color: rgb(22, 13, 0);
+          transform: translate(400px,100px);
+        }
+        60%{
+          background-color: rgb(85, 49, 2);
+          transform: translateX(300px);
+        }
+        70%{
+          background-color: rgb(126, 75, 9);
+          transform: translate(200px, 100px);
+        }
+        80%{
+          background-color: rgb(173, 103, 11);
+          transform: translateX(100px);
+        }
+        90%{
+          background-color: rgb(168, 118, 53);
+          transform: translateY(100px);
+        }
+        100%{
+          background-color: burlywood;
+          transform: translate(0);
+        }
+    }
+}
+@media screen and (max-width:600px){
+    ul.navbar{
+        transform: translateY(-70px);
+        display: block;
+        float: right;
+        margin-right: 10px;
+    }
+
+    div.address{
+        width: 30%;
+        color: burlywood;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 30px;
+    }
+    div.follow{
+        width:30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    div.icons{
+        display: block;
+    }
+}
